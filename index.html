@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Escola DNC</title>
+</head>
+<body>
+    <!--CABEÇALHO -->
+    <div id="header">
+        <a href="https://www.escoladnc.com.br/"><img id="logo" src="images/header/logo-dnc.svg" alt="Logo da escola DNC"/></a>
+        <div id="header-content">
+            <h1>Dê os primeiros passos da sua carreira em Tecnologia</h1>
+            <p>Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC School e aprenda os principais fundamentos para construir experiências efetivas.</p>
+      </div>  
+    </div>
+    <!--BARRA INFORMACIONAL -->
+    <div id="info-menu">
+        <div class="info-menu-content">
+            <img src="images/icons/icon-certificate.svg" alt="ícone de certificado"/>
+            <p>Certificado de conclusão</p>
+        </div>
+        <div class="info-menu-content">
+            <img src="images/icons/icon-clock.svg" alt="ícone de certificado"/>
+            <p>4 horas de conteúdo</p>
+        </div>
+        <div class="info-menu-content">
+            <img src="images/icons/icon-recorder.svg" alt="ícone de certificado"/>
+            <p>Aulas online gravadas</p>
+        </div>
+    </div>
+    <!--SEÇÃO DO VÍDEO -->
+    <div id="main">
+        <iframe id="main-video" width="502" height="283" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoplay></iframe>
+        <div id="main-content">
+            <h2>Aprenda com especialistas e comece seu primeiro projeto</h2>
+            <p>Conheça o processo de desenvolvimento e entenda como utilizar os principais métodos e ferramentas da área para resolver problemas complexos.</p>
+            <p>Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos.</p>
+        </div>
+    </div>
+    <!--SEÇÃO DOS DEPOIMENTOS -->
+    <div id="depoimentos">
+        <h2>Mais de 500 alunos já iniciaram seus estudos</h2>
+        <div id="carrossel-container">
+            <div id="left-arrow">
+                <img src="images/icons/icon-arrow.svg" />
+            </div>
+            <div id="carrossel">
+                <div class="carrossel-card">
+                    <img src="images/profiles/leonardo-photo.svg" alt="" />
+                    <div class="carrossel-card-content">
+                        <p>“Gostei muito da metodologia e da plataforma da Escola DNC. Os materiais são todos muito bons”</p>
+                        <p class="carrossel-card-content-username"><strong>Leonardo, desenvolvedor Back-End</strong></p>
+                    </div>
+                </div>
+                <div class="carrossel-card">
+                    <img src="images/profiles/samantha-photo.svg" alt="" />
+                    <div class="carrossel-card-content">
+                        <p>“O curso da foi a mudança que eu precisava para alcançar meus objetivos profissionais”</p>
+                        <p class="carrossel-card-content-username"><strong>Samantha, desenvolvedora Front-End</strong></p>
+                    </div>
+                </div>
+                <div class="carrossel-card">
+                    <img src="images/profiles/samantha-photo.svg" alt="" />
+                    <div class="carrossel-card-content">
+                        <p>“O curso da foi a mudança que eu precisava para alcançar meus objetivos profissionais”</p>
+                        <p class="carrossel-card-content-username"><strong>Samantha, desenvolvedora Front-End</strong></p>
+                    </div>
+                </div>
+                <div class="carrossel-card">
+                    <img src="images/profiles/samantha-photo.svg" alt="" />
+                    <div class="carrossel-card-content">
+                        <p>“O curso da foi a mudança que eu precisava para alcançar meus objetivos profissionais”</p>
+                        <p class="carrossel-card-content-username"><strong>Samantha, desenvolvedora Front-End</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div id="right-arrow">
+                <img src="images/icons/icon-arrow.svg" />
+            </div>
+        </div>
+    </div>
+    <div id="contato">
+        <h2>Comece agora mesmo e dê o próximo passo da sua carreira</h2>
+        <form id="contato-form" action="https://api.sheetmonkey.io/form/pxADw3rTFBVADpEBEeBd4M" target="_blank" method="post">
+            <input type="text" name="Name" placeholder="Nome" minlength="3" required />
+            <input type="email" name="Email" placeholder="E-mail" minlength="3" required />
+            <input id="phone-input" type="text" name="Phone" placeholder="Telefone" minlength="3" required />
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button id="btn-submit">Acesse a ementa grátis</button>
+        </form>
+        
+    </div>
+
+    <script src="scripts/carrossel.js"></script>
+    <script src="scripts/masks.js"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+html {
+    background-color: white;
+}
+
+#header {
+    background-image: url("../images//header/header-banner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 100px;
+    width: auto;
+}
+
+#header-content {
+    margin-left: 195px;
+    margin-top: 50px;
+    width: 450px;
+}
+
+#header-content > h1 {
+    font-size: 32px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+#header-content > p, #main-content > p {
+    line-height: 1.6;
+}
+
+#logo {
+    margin: 50px 0px 0px 75px;
+}
+
+#info-menu {
+    align-items: center;
+    background-color: #EAECE5;
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/*MAIN*/
+#main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+#main-video {
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#main-content {
+    margin: 0 20px 0 4%;
+    width: 560px;
+}
+
+#main-content > h2 {
+    color: #247BA0;
+    font-size: 32px;
+    line-height: 1.3;
+}
+
+#main-content > p {
+    color: #333;
+    margin: 20px 0;
+}
+/*MAIN*/
+
+#depoimentos {
+    background-color: #247BA0;
+    padding: 75px 0;
+}
+
+#depoimentos > h2 {
+    color: #EAECE5;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#carrossel-container {
+    display: flex;
+}
+
+#left-arrow {
+    align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+    padding-right: 20px;
+    width: 18%;
+}
+
+#left-arrow > img {
+    opacity: 50%;
+    transition: 0.2s ease-out;
+    user-select: none;
+}
+
+#left-arrow > img:hover {
+    transform: scale(120%);
+    transition: 0.2s ease-out;
+}
+
+#right-arrow {
+    align-items: center;
+    display: flex;
+    height: auto;
+    padding-left: 20px;
+    width: 18%;
+}
+
+#right-arrow > img {
+    cursor: pointer;
+    transform: rotateY(180deg);
+    transition: 0.2s ease-out;
+    user-select: none;
+}
+
+#right-arrow > img:hover {
+    transform: rotateY(180deg) scale(120%);
+    transition: 0.2s ease-out;
+}
+
+#carrossel {
+    align-items: center;
+    cursor: grab;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    overflow-x: hidden;
+    user-select: none;
+    width: 64%;
+}
+
+#contato {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    padding: 30px;
+    width: auto;
+}
+
+#contato > h2 {
+    color: #333;
+    font-size: 32px;
+    padding: 0 40px;
+}
+
+#contato-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+#contato-form > input {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin: 20px 0;
+    padding: 15px;
+    width: 500px;
+    font-size: 16px;
+    color: #333;
+    background-color: #EAECE5;
+}
+
+#contato-form > input::placeholder {
+    color: #333;
+}
+
+#contato-form > input:focus {
+    outline: none;
+    border: 1px solid #247BA0;
+}
+
+#btn-submit {
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #247BA0;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#btn-submit:hover {
+    cursor: pointer;
+    background-color: #3a98c0;
+    transform: scale(110%);
+    transition: 0.2s ease-in-out;
+}
+
+
+.info-menu-content {
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+
+.info-menu-content > p {
+    margin-left: 10px;
+}
+
+.carrossel-card {
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    height: 100px;
+    margin: 0 20px;
+    padding: 35px;
+    width: 500px;
+}
+
+.carrossel-card:first-child {
+    margin-left: 5px;
+}
+
+.carrossel-card:last-child {
+    margin-left: 5px;
+}
+
+.carrossel-card > img {
+    -webkit-user-drag: none;
+    border-radius: 50%;
+    height: 100px;
+    user-select: none;
+    width: 100px;
+}
+
+.carrossel-card-content {
+    color: #333;
+    font-size: 18px;
+    margin-left: 20px;
+    padding-top: 10px;
+    width: 450px;
+}
+
+.carrossel-card-content-username {
+    margin-top: 25px;
+}
